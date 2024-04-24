@@ -1,0 +1,101 @@
+/* styles.css */
+
+.search {
+  margin-bottom: 20px;
+}
+
+.search input[type="text"] {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.search-results {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.search-result {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: calc(33.33% - 20px);
+}
+
+.catalog {
+  margin-bottom: 40px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+th {
+  cursor: pointer;
+}
+
+th:hover {
+  background-color: #f2f2f2;
+}
+
+.new {
+  background-color: #ff0000;
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.product {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.product h3 {
+  margin-top: 0;
+}
+
+.product-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.order-form {
+  margin-top: 40px;
+}
+
+.order-form div {
+  margin-bottom: 20px;
+}
+
+.order-form input[type="radio"], .order-form input[type="text"], .order-form input[type="number"] {
+  margin-right: 10px;
+}
+
+.order-form label {
+  font-weight: bold;
+}
+
+.order-form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.order-form button:hover {
+  background-color: #0056b3;
+}
